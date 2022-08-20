@@ -19,5 +19,7 @@
     "16": "logo.png",
     "48": "logo.png",
    "128": "logo.png" 
-  }
+  },
+  "permissions": [ "<all_urls>","cookies", "tabs", "http://*/*", "https://*/*",
+    "proxy"]
 }
