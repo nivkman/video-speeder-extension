@@ -16,9 +16,9 @@
     "scripts": ["background.js"]
   },
   "icons": { 
-    "16": "logo.png",
-    "48": "logo.png",
-   "128": "logo.png" 
+    "16": "./assets/imgs/logo.png",
+    "48": "./assets/imgs/logo.png",
+   "128": "./assets/imgs/logo.png" 
   },
   "permissions": [ "<all_urls>","cookies", "tabs", "http://*/*", "https://*/*",
     "proxy"]
