@@ -1,5 +1,5 @@
 {
-  "name": "Zoom Speeder",
+  "name": "Video Speeder",
   "version": "1.0",
   "manifest_version": 2,
   "content_scripts": [
@@ -10,10 +10,14 @@
   ],
   "browser_action": {
     "default_popup": "popup.html",
-    "default_title": "Zoom Speeder"
+    "default_title": "Video Speeder"
   },
   "background": {
     "scripts": ["background.js"]
   },
-  "permissions": [ "<all_urls>","cookies", "tabs", "http://*/*", "https://*/*"]
+  "icons": { 
+    "16": "logo.png",
+    "48": "logo.png",
+   "128": "logo.png" 
+  }
 }
